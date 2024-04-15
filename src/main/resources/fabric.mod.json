@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "book-formatting",
+	"version": "${version}",
+	"name": "Book Formatting",
+	"description": "Adds Formatting buttons to the Book GUI and lets you type a section sign using left Alt",
+	"authors": [
+		"Luadewi"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/book-formatting/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+		]
+	},
+	"mixins": [
+		"book-formatting.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": ">=1.19.3",
+		"java": ">=17"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
